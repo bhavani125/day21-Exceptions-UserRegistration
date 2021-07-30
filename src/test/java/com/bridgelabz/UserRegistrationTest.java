@@ -47,4 +47,14 @@ public class UserRegistrationTest {
             System.out.println(e.errorMessage);
         }
     }
+    @Test
+    public void givenPassword_WhenMin8Chars_ShouldReturnTrue() {
+        try {
+            //calling validatePassword method
+            boolean result = userRegistration.validatePassword("Bhavani@123");
+            Assert.assertTrue(result);
+        } catch (UserRegistrationException e) {
+            System.out.println(e.errorMessage);
+        }
+    }
 }
