@@ -37,4 +37,14 @@ public class UserRegistrationTest {
             System.out.println(e.errorMessage);
         }
     }
+    @Test
+    public void givenPhoneNumber_WhenValid_ShouldReturnTrue () {
+        try {
+            //calling validatePhoneNumber method
+            boolean result = userRegistration.validatePhoneNumber("91 8341930630");
+            Assert.assertTrue(result);
+        } catch (UserRegistrationException e) {
+            System.out.println(e.errorMessage);
+        }
+    }
 }
