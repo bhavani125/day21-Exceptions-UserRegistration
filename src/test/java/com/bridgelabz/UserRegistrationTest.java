@@ -17,4 +17,14 @@ public class UserRegistrationTest {
             System.out.println(e.errorMessage);
         }
     }
+    @Test
+    public void  givenLastName_whenValid_thenReturnTrue() {
+        try {
+            //calling validateLastName method
+            boolean result = userRegistration.validateLastName("Girineni");
+            Assert.assertTrue(result);
+        } catch (UserRegistrationException e) {
+            System.out.println(e.errorMessage);
+        }
+    }
 }

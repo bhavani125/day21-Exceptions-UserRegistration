@@ -21,4 +21,20 @@ public class UserRegistration {
         }
         return true;
     }
+    //Creating validateLastName Method
+    public boolean validateLastName(String name) throws UserRegistrationException {
+        Pattern pattern = Pattern.compile(namePattern);
+        Matcher matcher = pattern.matcher(name);
+        try
+        {
+            boolean result = matcher.matches();
+            if (!result)
+                throw new UserRegistrationException("INPUT IS WRONG");
+        }
+        catch (UserRegistrationException e) {
+            System.out.println(e.errorMessage);
+
+        }
+        return true;
+    }
 }
