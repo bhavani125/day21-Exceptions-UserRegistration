@@ -67,4 +67,15 @@ public class UserRegistrationTest {
             System.out.println(e.errorMessage);
         }
     }
+
+    @Test
+    public void givenPassword_WhenAtleast1NumericNumber_ShouldReturnTrue() {
+        try {
+            //calling validatePassword method
+            boolean result = userRegistration.validatePassword("123&Bha1$");
+            Assert.assertTrue(result);
+        } catch (UserRegistrationException e) {
+            System.out.println(e.errorMessage);
+        }
+    }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-30T14:29:49" hostname="DESKTOP-1A5CKOQ" time="0.034">
+<testsuite name="com.bridgelabz.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-30T14:43:39" hostname="DESKTOP-1A5CKOQ" time="0.026">
   <properties/>
-  <testcase name="givenPassword_WhenMin8Chars_ShouldReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.034"/>
+  <testcase name="givenPassword_WhenAtleast1NumericNumber_ShouldReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.026"/>
   <system-out><![CDATA[INPUT IS WRONG
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
