@@ -27,4 +27,14 @@ public class UserRegistrationTest {
             System.out.println(e.errorMessage);
         }
     }
+    @Test
+    public void  givenEmailId_WhenValid_ShouldReturnTrue() {
+        try {
+            //calling validateEmailId method
+            boolean result = userRegistration.validateEmailId("abc.xyz@bl.co.in");
+            Assert.assertTrue(result);
+        } catch (UserRegistrationException e) {
+            System.out.println(e.errorMessage);
+        }
+    }
 }
