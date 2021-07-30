@@ -57,4 +57,14 @@ public class UserRegistrationTest {
             System.out.println(e.errorMessage);
         }
     }
+    @Test
+    public void givenPassword_WhenAtleast1UpperCase_ShouldReturnTrue() {
+        try {
+            //calling validatePassword method
+            boolean result = userRegistration.validatePassword("Bhavani@123");
+            Assert.assertTrue(result);
+        } catch (UserRegistrationException e) {
+            System.out.println(e.errorMessage);
+        }
+    }
 }
