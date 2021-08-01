@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.ParameterisedTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-07-31T02:30:28" hostname="DESKTOP-1A5CKOQ" time="0.017">
+  <properties/>
+  <testcase name="givenAllEmail_ShouldReturn_True[0]" classname="com.bridgelabz.ParameterisedTest" time="0.01"/>
+  <testcase name="givenAllEmail_ShouldReturn_True[1]" classname="com.bridgelabz.ParameterisedTest" time="0.001"/>
+  <testcase name="givenAllEmail_ShouldReturn_True[2]" classname="com.bridgelabz.ParameterisedTest" time="0.001"/>
+  <testcase name="givenAllEmail_ShouldReturn_True[3]" classname="com.bridgelabz.ParameterisedTest" time="0.0"/>
+  <testcase name="givenAllEmail_ShouldReturn_True[4]" classname="com.bridgelabz.ParameterisedTest" time="0.0"/>
+  <testcase name="givenAllEmail_ShouldReturn_True[5]" classname="com.bridgelabz.ParameterisedTest" time="0.0"/>
+  <testcase name="givenAllEmail_ShouldReturn_True[6]" classname="com.bridgelabz.ParameterisedTest" time="0.001"/>
+  <testcase name="givenAllEmail_ShouldReturn_True[7]" classname="com.bridgelabz.ParameterisedTest" time="0.0"/>
+  <testcase name="givenAllEmail_ShouldReturn_True[8]" classname="com.bridgelabz.ParameterisedTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

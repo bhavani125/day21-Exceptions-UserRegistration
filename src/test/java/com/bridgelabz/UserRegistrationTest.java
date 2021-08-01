@@ -88,14 +88,5 @@ public class UserRegistrationTest {
         }
     }
 
-    @Test
-    public void givenEmailIds_WhenProper_ShouldReturnTrue() {
-        try {
-            //calling validatePassword method
-            boolean result = userRegistration.validateSampleEmailId();
-            Assert.assertTrue(result);
-        } catch (UserRegistrationException e) {
-            System.out.println(e.errorMessage);
-        }
-    }
+
 }

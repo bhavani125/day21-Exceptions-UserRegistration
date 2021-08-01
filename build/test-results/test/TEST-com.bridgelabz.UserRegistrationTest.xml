@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-30T14:52:00" hostname="DESKTOP-1A5CKOQ" time="0.027">
-  <properties/>
-  <testcase name="givenEmailIds_WhenProper_ShouldReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.027"/>
-  <system-out><![CDATA[abc@yahoo.com - valid 
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
