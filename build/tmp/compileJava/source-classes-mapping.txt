@@ -2,3 +2,6 @@ com/bridgelabz/UserRegistrationException.java
  com.bridgelabz.UserRegistrationException
 com/bridgelabz/UserRegistration.java
  com.bridgelabz.UserRegistration
+com/bridgelabz/UserRegistrationLambda.java
+ com.bridgelabz.DataValidator
+ com.bridgelabz.UserRegistrationLambda
